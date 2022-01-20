@@ -13,6 +13,8 @@ header.masthead {
     background-position: center center;
     background-size: cover;
     background-color: $lightestNavy;
+    position: relative;
+    height: 800px;
 
     .masthead-subheading {
         font-size: 1.5rem;
@@ -20,6 +22,10 @@ header.masthead {
         line-height: 1.5rem;
         margin-bottom: 25px;
         font-family: $subheadings-font-family;
+        position: relative;
+        top: 25%;
+        right: 50%;
+        transform: translate(50%,-50%);
     }
 
     .masthead-heading {
@@ -28,6 +34,10 @@ header.masthead {
         line-height: 3.25rem;
         margin-bottom: 2rem;
         font-family: $headings-font-family;
+        position: relative;
+        top: 20%;
+        right: 50%;
+        transform: translate(50%,-50%);
     }
 }
 
@@ -50,4 +60,21 @@ header.masthead {
             margin-bottom: 4rem;
         }
     }
+}
+
+#particles-js {
+    width: 100%;
+    height: 800px;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+header.masthead div {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
 }
