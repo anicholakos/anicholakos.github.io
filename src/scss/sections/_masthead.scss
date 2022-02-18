@@ -39,6 +39,10 @@ header.masthead {
         right: 50%;
         transform: translate(50%,-50%);
     }
+
+    .container {
+        pointer-events: none; // To interact with canvas, but can't interact with text
+    }
 }
 
 @include media-breakpoint-up(md) {
