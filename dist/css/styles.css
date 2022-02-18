@@ -11534,6 +11534,7 @@ header.masthead div {
     max-width: 50vw;
     position: absolute;
     left: 25%;
+    right: 25%;
   }
   .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
     font-size: 3rem;
