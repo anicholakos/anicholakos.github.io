@@ -11442,10 +11442,6 @@ header.masthead .masthead-heading {
   right: 50%;
   transform: translate(50%, -50%);
 }
-header.masthead .container {
-  pointer-events: none;
-}
-
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
