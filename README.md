@@ -24,13 +24,7 @@ My personal website
    npm run build
    ```
 
-2. Preview the site as it will appear once deployed
-
-   ```sh
-   npm run serve
-   ```
-
-3. Publish and deploy dist folder to gh-pages branch
+2. Publish and deploy dist folder to gh-pages branch
 
    ```sh
    npm run deploy
