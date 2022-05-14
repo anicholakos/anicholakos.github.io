@@ -4,10 +4,6 @@ My personal website
 
 1. Install [Node](https://nodejs.org/en/download/)
 
-   ```sh
-   nvm install
-   ```
-
 2. Install dependencies
 
    ```sh
