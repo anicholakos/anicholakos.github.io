@@ -1,3 +1,19 @@
 section#about {
     background-color: $lightNavy;
+
+    h2 {
+        text-align: center;
+    }
+
+    h4.section-subheading {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
 }

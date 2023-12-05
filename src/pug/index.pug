@@ -49,16 +49,21 @@ html(lang='en')
             #particles-js
             .container
                 .masthead-heading.text-uppercase Aki Nicholakos
-                .masthead-subheading Welcome to my website! I'm a software engineer and I was most recently working for Booz Allen Hamilton. (This site is still under construction, but feel free to take a glimpse at some of my projects!)
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                .masthead-subheading Welcome to my website! I'm a software engineer currently working for ASRC Federal as a full-stack developer. (This site is still under construction, but feel free to take a glimpse at some of my projects!)
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#about') Tell Me More
 
 
         // About
         section#about.page-section
             .container
-                .text-center
-                    h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Hi, I'm Aki.
+                h2.section-heading.text-uppercase About
+                h4.section-subheading.text-muted Hi, my name is Sotirios Nicholakos, but I go by Sotiraki or just Aki. I'm a computer science graduate with interests in full-stack development and data analysis/visualization. Since graduating, I've had the privilege of working at Booz Allen Hamilton and ASRC Federal. Below, you can find some of the work I've done, as well as some of the technologies I use:
+                ul
+                    li Java 
+                    li Python 
+                    li VB.NET 
+                    li JavaScript
+                    li R
                 //ul.timeline
                     li
                         .timeline-image
@@ -160,28 +165,28 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading 4
                                 .portfolio-caption-subheading.text-muted 4
-                    //.col-lg-4.col-sm-6.mb-4.mb-sm-0
-                    //-     // Portfolio item 5
-                    //-     .portfolio-item
-                    //-         a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
-                    //-             .portfolio-hover
-                    //-                 .portfolio-hover-content
-                    //-                     i.fas.fa-plus.fa-3x
-                    //-             img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
-                    //-         .portfolio-caption
-                    //-             .portfolio-caption-heading Southwest
-                    //-             .portfolio-caption-subheading.text-muted Website Design
-                    //- .col-lg-4.col-sm-6
-                    //-     // Portfolio item 6
-                    //-     .portfolio-item
-                    //-         a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
-                    //-             .portfolio-hover
-                    //-                 .portfolio-hover-content
-                    //-                     i.fas.fa-plus.fa-3x
-                    //-             img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
-                    //-         .portfolio-caption
-                    //-             .portfolio-caption-heading Window
-                    //-             .portfolio-caption-subheading.text-muted Photography
+                    //-.col-lg-4.col-sm-6.mb-4.mb-sm-0
+                        // Portfolio item 5
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Southwest
+                                .portfolio-caption-subheading.text-muted Website Design
+                    //-.col-lg-4.col-sm-6
+                        // Portfolio item 6
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Window
+                                .portfolio-caption-subheading.text-muted Photography
 
         // Footer
         footer.footer.py-4
@@ -197,8 +202,8 @@ html(lang='en')
                         a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/in/anicholakos/')
                             i.fab.fa-linkedin-in
                     .col-lg-4.text-lg-end
-                        a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
-                        a.link-dark.text-decoration-none(href='#!') Terms of Use
+                        //a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
+                        //a.link-dark.text-decoration-none(href='#!') Terms of Use
 
         // Portfolio Modals
         include includes/portfolio-modal-1
