@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v7.0.10 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
+* Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
 /*!
@@ -11818,6 +11818,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 section#about {
   background-color: #112240;
+}
+section#about h2, section#about .h2 {
+  text-align: center;
+}
+section#about h4.section-subheading, section#about .section-subheading.h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+section#about ul {
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .footer {
